@@ -17,7 +17,7 @@ int main(void)
 
 	{
 
-		printf(i);
+		putchar(i);
 
 	}
 
