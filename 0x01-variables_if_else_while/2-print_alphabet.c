@@ -14,7 +14,7 @@ int main(void)
 {
 
 	int n;
-	for(int x = 'A'; x <= 'Z'; x++)
+	for( n = 'A'; n <= 'Z'; n++)
 
 	{
 
