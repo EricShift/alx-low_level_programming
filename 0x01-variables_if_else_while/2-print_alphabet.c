@@ -10,18 +10,27 @@
  */
 
 int main(void)
-
 {
+	int i;
 
-	int n;
-	for( n = 'A'; n <= 'Z'; n++)
+	for (i = 97; i <= 122; i++)
 
 	{
 
-		putchar(tolower(n));
+		putchar(i);
 
 	}
+
+	for (i = 65; i <= 90; i++)
+
+	{
+
+		putchar(i);
+
+	}
+
 		putchar('\n');
+
 return (0);
 
 }
