@@ -23,16 +23,16 @@ int main(void)
 			{
 				if ((i >= j) || (j >= k))
 					continue;
-			putchar(i);	
+			putchar(i);
 			putchar(j);
 			putchar(k);
-			if ((j == 57) && (i == 56))
+				if ((j == 57) && (i == 56))
 				{
 					if (i == 55)
 						break;
 				}
-			putchar(44);
-			putchar(32);
+				putchar(44);
+				putchar(32);
 
 			}
 		}
