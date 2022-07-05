@@ -24,4 +24,4 @@ char text[9] = "_putchar";
 	_putchar('\n');
 
 	return (0);
-}	
+}
