@@ -2,12 +2,10 @@
 
 /**
 * print_alphabet - Prints a-z in lowercase
-*
 * Return: Nothing (Null Void)
-*
 */
 
-void print_alphabet(void);
+void print_alphabet(void)
 
 {
 
@@ -27,5 +25,5 @@ void print_alphabet(void);
 
 
 
-	_putchar('\n);
+	_putchar('\n');
 }
