@@ -1,8 +1,8 @@
-include "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
 * main - program to print putchar to the screen
-*
 * Return: exit status is zero if successful
 *
 */
