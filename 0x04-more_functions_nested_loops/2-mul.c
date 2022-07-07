@@ -6,9 +6,9 @@
  * @b - second integer
  *
  * retuen: ans returns the multiplication results
-*/
+ */
 
 int mul(int a, int b)
 {
 	return (a * b);
-}	
+}
