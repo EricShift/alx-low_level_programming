@@ -2,13 +2,13 @@
 
 /**
  * int mul(int a, int b) - Multiplies two integers
- * @a - first integer
- * @b - second integer
+ * @c - first integer
+ * @d - second integer
  *
  * retuen: ans returns the multiplication results
  */
 
-int mul(int a, int b)
+int mul(int c, int d)
 {
-	return (a * b);
+	return (c * d);
 }
