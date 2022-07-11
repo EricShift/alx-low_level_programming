@@ -10,7 +10,12 @@
 void _puts(char *str)
 {
 
-	_putchar("%s", *str);
+	int track;
+
+	for (track = 0; *(str + track) != '\0'; track++)
+	{
+		_putchar(*(str + track));
+	}
 	_putchar('\n');
 
 }
