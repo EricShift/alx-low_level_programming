@@ -9,5 +9,5 @@
  */
 int _strlen(char *s)
 {
-	return (strlen(*s));
+	return (size_t strlen(const char *s));
 }
