@@ -1,18 +1,20 @@
 #include "main.h"
-#include<stdio.h>
-#include <string.h>
-
+#include "2-strlen.c"
 
 /**
- * rev_string - reverse string
- * @s: string
- * Return: void
+ * print_rev - prints a string to stdout in reverse
+ * @s: this is a string
+ *
+ * Return: Null void
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
+	int track;
 
-	_putchar(strrev(s));
+	for (track = _strlen(s) - 1; track >= 0; track--)
+	{
+		_putchar(*(s + track));
+	}
 	_putchar('\n');
-
 }
