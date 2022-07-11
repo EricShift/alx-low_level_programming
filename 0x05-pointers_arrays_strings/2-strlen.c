@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * _strlen - Counts the number of chars in a string
+ * @s: this is a string
+ *
+ * Return: An integer which is the number of chars
+ */
+int _strlen(char *s)
+{
+	return (strlen( char *s));
+}
