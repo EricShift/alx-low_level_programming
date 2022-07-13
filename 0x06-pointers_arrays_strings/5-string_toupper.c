@@ -1,17 +1,28 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * string_toupper - Changes any lowercase letter
  * in a string to uppercase
- * @c: The string to check
+ * @n: The string to check
  *
  * Return: The uppercased string
  */
 
-char *string_toupper(char *c)
+char *string_toupper(char *n)
 {
-	toupper(c);
+	int i;
 
-	return (c);
+	for (i = 0; n[i] != '\0'; i++)
+
+	{
+
+		if (n[i] >= 97 && n[i] <= 122)
+
+			n[i] = n[i] - 32;
+
+		else
+
+			continue;
+	}
+	return (n);
 }
