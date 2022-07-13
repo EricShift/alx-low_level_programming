@@ -12,7 +12,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	char *strncat(char *dest, const char *src, size_t n);
+	strncat(dest, src, n);
 
 return (dest);
 }
