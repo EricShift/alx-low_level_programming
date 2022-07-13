@@ -22,6 +22,6 @@ int _strcmp(char *s1, char *s2)
 		count = *(s1 + count2) - *(s2 + count2);
 
 		count2++;
-
+	}
 	return (count);
 }
