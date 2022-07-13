@@ -4,7 +4,7 @@
 /**
  * string_toupper - Changes any lowercase letter
  * in a string to uppercase
- * @n: The string to check
+ * @c: The string to check
  *
  * Return: The uppercased string
  */
