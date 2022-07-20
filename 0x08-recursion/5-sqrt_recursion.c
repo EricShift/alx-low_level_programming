@@ -19,8 +19,8 @@ int _sqrt(int n, int y)
 		return (_sqrt(n, y + 1));
 }
 
-/** 
- * qrt_recursion - Returns to the main program
+/**
+ * _sqrt_recursion - Returns to the main program
  * the number from _sqrt
  * @n: this is the number
  *
